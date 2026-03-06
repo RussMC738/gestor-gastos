@@ -26,12 +26,15 @@ if tipo == "Gasto":
         "Ropa",
         "Entretenimiento",
         "Salud",
+        "Servicio de agua",
+        "Servicio de Luz",
+        "Servicio de Internet"
         "Otros"
     ])
 else:
     categoria = st.selectbox("Categoría", [
         "Salario",
-        "Freelance",
+        "Trabajo extra",
         "Regalo",
         "Otros"
     ])
